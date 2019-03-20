@@ -12,7 +12,7 @@ object ArschImRaumDerZeit {
 // Actor
 class ArschImRaumDerZeit extends Actor {
   override def receive: Receive = {
-    case _: String => sender ! println(s"$self: Fick Dich!")
+    case _: String => println(s"$self: Fick Dich!")
   }
 }
 
